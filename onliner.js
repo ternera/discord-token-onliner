@@ -9,7 +9,7 @@ const client = new Client({
 client.once('ready', () => {
     // CHANGE FROM online TO idle OR dnd IF YOU WANT. 
     client.user.setStatus('online');
-    console.log(`Logged in as ${client.user.tag} and set status to idle.`);
+    console.log(`Logged in as ${client.user.tag} and made your account online.`);
     
     console.log('WARNING: Using user accounts with selfbots is against Discord\'s Terms of Service.');
     console.log('Use at your own risk. This script is for educational purposes only.');
